@@ -1,0 +1,12 @@
+Instruções
+Check Point 2: Codificação protótipo entregue no Check Point 1;
+
+Divisão de conteúdo com divs e com o uso de elementos semânticos; (20.0)
+Criação do menu navegável; (20.0)
+Padronização de cores e fontes em toda(s) a(s) página(s); (10.0)
+Utilização de imagens; (10.0)
+Posicionamento dos containers com Flexbox; (30.0)
+Codificação deve representar o (projeto layout) entregue no Check Point 01. (10.0)
+
+Mesmo grupo do Check Point 1.
+Cada aluno do grupo deve subir no sistema um arquivo zipado (identificar o documento como "checkPoint2-nomeAluno.zip"), com todos os documentos do projeto (códigos, imagens, etc).
