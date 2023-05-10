@@ -1,8 +1,14 @@
-body{
+body{ /*tudo*/
   background-image: linear-gradient(to right, rgb(152, 33, 33), black 70%);
   background-repeat: no-repeat;
   font-family: Monaco;
-  height: 100%;
+  height: 100vh;
+  width: 100%;
+}
+
+h1 { /*"Vinheria Agnello"*/
+  color: #fff;
+  margin-left: 80px;
 }
 
 header{
@@ -12,12 +18,12 @@ header{
   width: 100%;
 }
 
-header nav{
+header nav{ /*Navegador*/
     background-color: black;
     width: 60%;
     height: 10%;
     top: 5%;
-    left: 25%;
+    margin-left: 220px;
     position: absolute;
     padding: 10px;
 }
@@ -34,18 +40,18 @@ header li{
   top: 50%;
 }
 
-header li a{
+header li a{ /*Links navegador*/
   color: #fff;
   text-decoration: none;
 }
 
-header li:hover a {
+header li:hover a { /*Sublinhado(hover) nos links*/
   color: rgb(255, 255, 255);
   border-radius: 7%;
   border-bottom: 1px #ffffff solid;
 }
 
-.promocao {
+.promocao { /*Botão promoção*/ 
   background-color: rgb(152, 33, 33);
   text-decoration: none;
   color: #fff;
@@ -57,80 +63,112 @@ header li:hover a {
   border-radius: 10%;
 }
 
-h3 {
-  color: #fff;
-  margin-left: 180px;
+h3 { /* "Bem vindo" das páginas*/
+  color: #f9b2c5;
+  margin-left: 80px;
   margin-top: 90px;
 }
 
-h2{
+h2{ /*Descrição da página*/
   color: #fff;
-  margin-left: 180px;
+  margin-left: 80px;
   
 }
 
-h1 {
-  color: #fff;
-  margin-left: 180px;
-}
-
-div a {
+div a { /*Botão "Saiba Mais" */
   color: #fff;
   text-decoration: none;
-  margin-left: 180px;
+  margin-left: 80px;
   background-color: black;
   padding: 20px;
   border-radius: 7%;
 }
 
-div:hover a {
+div:hover a { /*Sublinhado(hover) no link */
   color: rgb(255, 255, 255);
   border-radius: 7%;
   border-bottom: 1px #ffffff solid;
 }
 
-img{    
+img{  /* Imagens da página HOME */
     border-radius: 8%;
     float: right;
     text-decoration: none;
     margin-bottom: 28px;
+    padding: 5px;
 }
 
-.img1{
+.img1{ /* Imagem 1 da página HOME */
   height: 249px;
   width: 280px;
-  margin-right: 20px;
+  margin-right: 240px;
+  margin-top: 20px;
 }
 
-.img2{
+.img2{ /* Imagem 2 da página HOME */
   height: 349px;
   width: 350px;
-  margin-right: 50px;
+
 }
 
 
-table img{
+table img{ /*Imagens da página "Loja" */
   background: #000000;
   color: #FFF;
   border-bottom: 1px #000 solid;
-  float: left;
-  padding: 5px 7px;
+  padding: 5px;
   margin: 1px;
   text-decoration: none;
-  height: 330px;
+  height: 280px;
   width: 250px;
-  margin-left: 180px;
-  margin-top: 90px;
+  margin-left:80px;
+  margin-top: 70px;
 }
 
-table a{
-  margin-left: 180px;
-  margin-top: 90px;
+table a{ /*Links dos preços página "Loja" */
+  margin-left: 80px;
+  margin-top: 80px;
   color: #FFF;
   text-decoration: none;
 }
-table:hover a{
+table td:hover a{ /*Sublinhado(hover) no link */
   color: rgb(255, 255, 255);
+  border-radius: 7%;
+  border-bottom: 1px #ffffff solid;
+}
+
+.lista{ /*Lista de produtos página "Tipos" */
+  margin-left: 220px;
+  margin-top: 80px;
+  color: #FFF;
+  text-decoration: none;
+} 
+
+.vinhodesconto{ /*imagem vinho página Promoção*/
+  background: #000000;
+  color: #FFF;
+  border-bottom: 1px #000 solid;
+  text-decoration: none;
+  height: 300px;
+  width: 280px;
+  margin-right: 600px;
+  margin-top: 70px;
+}
+
+.detalhes2{/*detalhes da promoção*/
+  margin-left: 60px;
+  margin-top: 90px;
+  color: #FFF;
+  font-size: 20px;  
+}
+
+.detalhes2 li a{
+  color:#FFF;
+  text-decoration:none;
+}
+
+.detalhes2 li:hover a{
+  color:#FFF;
   border-radius: 7%;
   border-bottom: 1px #ffffff solid;
 }
